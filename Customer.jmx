@@ -285,7 +285,7 @@ writer.close();</stringProp>
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
- &quot;id&quot;: 102,&#xd;
+ &quot;id&quot;: ${id},&#xd;
  &quot;name&quot;: &quot;Shifat&quot;,&#xd;
  &quot;email&quot;: &quot;shifat@gmail.com&quot;,&#xd;
  &quot;address&quot;: &quot;Mirpur&quot;,&#xd;
@@ -299,7 +299,7 @@ writer.close();</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/customer/api/v1/update/102</stringProp>
+          <stringProp name="HTTPSampler.path">/customer/api/v1/update/${id}</stringProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -329,7 +329,7 @@ writer.close();</stringProp>
           <stringProp name="HTTPSampler.port">443</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/customer/api/v1/update/102</stringProp>
+          <stringProp name="HTTPSampler.path">/customer/api/v1/update/${id}</stringProp>
           <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
