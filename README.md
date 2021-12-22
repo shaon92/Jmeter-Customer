@@ -10,4 +10,5 @@ jmeter -n -t Customer.jmx -l log.csv -e -o Reports
 
 ```
 
-![Report](https://user-images.githubusercontent.com/19981736/146969859-3e7d01a6-70a3-4d68-ba9f-8de5019b524a.JPG)
+![report](https://user-images.githubusercontent.com/19981736/147115421-049e35a9-ce50-4af3-97a6-09de3ba6a4e2.JPG)
+
